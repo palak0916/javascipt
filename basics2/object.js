@@ -65,4 +65,28 @@ tinderuser.loggedin="false"
         ]
         
         users[1].email
-                     
+        const course = {
+            coursename: "js in hindi",
+            price: "999",
+            courseInstructor: "hitesh"
+        }
+        
+        // course.courseInstructor
+         const {courseInstructor} = course  //accesing method in case we don't use .dot method 
+        
+        const {courseInstructor: instructor} = course //here we are renaming the courseinstructor
+        
+        // console.log(courseInstructor);
+        console.log(instructor);
+        
+        // {
+        //     "name": "hitesh",          //here it is the json syntax we use in api ,it has resemblence to objects
+        //     "coursename": "js in hindi",
+        //     "price": "free"
+        // }
+        
+        [
+            {},          //it is in array form (api)
+            {},
+            {}
+        ]             
