@@ -37,13 +37,13 @@ function loginUserMessage(username = "sam"){
 // console.log(loginUserMessage("hitesh"))
 // console.log(loginUserMessage("hitesh"))
 
-function calculateCartPrice1(...num1)   //spread method [outcome=300 200 400]
+function calculateCartPrice1(...num1)   //rest operator method [outcome=300 200 400]
 {
    return num1
 }
 console.log(calculateCartPrice1(300,200,400));
 
-function calculateCartPrice(val1,val2,...num)   //spread method  [outcome= 400,500]
+function calculateCartPrice(val1,val2,...num)   //rest operator method  [outcome= 400,500]
 {
    return num
 }
