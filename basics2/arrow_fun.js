@@ -1,15 +1,15 @@
-const user = {
-    username: "hitesh",
-    price: 999,
+// const user = {
+//     username: "hitesh",
+//     price: 999,
 
-    welcomeMessage: function() {
-        console.log(`${this.username} , welcome to website`);  //this point to current context(here object)
-        console.log(this);
-    }
+//     welcomeMessage: function() {
+//         console.log(`${this.username} , welcome to website`);  //this point to current context(here object)
+//         console.log(this);
+//     }
 
-}
+// }
 
- user.welcomeMessage()
+//  user.welcomeMessage()
 // user.username = "sam"
 // user.welcomeMessage()
 
@@ -27,17 +27,17 @@ const user = {
 //     console.log(this.username);
 // }
 
-const chai =  () => {            //arrow function
-    let username = "hitesh"
-    console.log(this);
-}
+//const chai =  () => {            //arrow function
+  //  let username = "hitesh"
+    //console.log(this);
+//}
 
 
 // chai()
 
  //const addTwo = (num1, num2) => {        //arrow function expicityly return
  //    return num1 + num2
- }
+// }
  
 
 // const addTwo = (num1, num2) =>  num1 + num2          
@@ -53,3 +53,15 @@ const chai =  () => {            //arrow function
 // const myArray = [2, 5, 3, 7, 8]
 
 // myArray.forEach()
+//**************IIFE(IMIDIATETLY INVOKED FUNCTION EXPRESSION)************************
+ //we need this so
+( function palak()
+{
+    console.log('palak');
+    
+})();
+( (a,b)=> {
+    console.log(a+b);
+    
+    
+})(3,4)
