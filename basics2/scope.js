@@ -52,7 +52,9 @@ function addone(num){
 
                                    //mini hostingy
   
-addTwo(5)                      //here if i call the function here it will not execute as we are storing it in variable ,so here the variable is not known 
-const addTwo = function(num){
+addTwo(5)   
+                   //here if i call the function here it will not execute as we are storing it in variable ,so here the variable is not known 
+        //function expression
+    const addTwo = function(num){
     return num + 2
 }
